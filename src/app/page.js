@@ -1,9 +1,12 @@
-import Image from "next/image";
+import Header from './components/Header';
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello hello</h1>
+      <div className="flex bg-yellow-500">
+      <Header />
+      </div>
     </main>
   );
 }
+
