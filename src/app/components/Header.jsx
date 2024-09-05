@@ -2,8 +2,8 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="flex justify-between w-full p-4 bg-blue-500 ">
-      <h1 className="text-2xl text-white">Header</h1>
+    <header className="row-start-1 p-4 text-white rounded bg-zinc-600 col-span-18 md:col-span-12">
+      <h1 className="text-3xl font-bold text-pink-500">Header</h1>
     </header>
   );
 };
